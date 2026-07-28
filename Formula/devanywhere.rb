@@ -7,7 +7,8 @@ class Devanywhere < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", "-g", "--prefix=#{libexec}", "."
+    # 必须从 sha256 校验过的 tarball 安装：npm 对本地目录全局安装只建软链，构建目录清理后会悬空
+    system "npm", "install", "-g", "--prefix=#{libexec}", cached_download
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
