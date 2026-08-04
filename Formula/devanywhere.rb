@@ -1,8 +1,8 @@
 class Devanywhere < Formula
   desc "一条命令把手机接入 Mac 上的 Claude Code（EasyTier 组网 + CloudCLI Web UI）"
   homepage "https://github.com/Rocke1001feller/devanywhere-cli"
-  url "https://registry.npmjs.org/devanywhere/-/devanywhere-0.1.1.tgz"
-  sha256 "f751d30fece16a1f64ec2a066f6e7cd31351a9a420d995501c45f16f865edf82"
+  url "https://registry.npmjs.org/devanywhere/-/devanywhere-0.9.9.tgz"
+  sha256 "42e4076131a43ad718330f673c45943fc86db2ea14659ae23707ae3b397a3b19"
 
   depends_on "node"
 
