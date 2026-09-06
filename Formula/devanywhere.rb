@@ -3,7 +3,7 @@ class Devanywhere < Formula
   homepage "https://github.com/Rocke1001feller/DevAnyWhere"
   url "https://registry.npmjs.org/@devanywhere/cli/-/cli-2.0.0-alpha.1.tgz"
   sha256 "831f0f28a2119abe183703cc0fa5006c7debbad98b30dbc9d6c5e5e0165bbc3f"
-  version "2.0.0-alpha.0"
+  version "2.0.0-alpha.1"
 
   depends_on "node@22"
 
