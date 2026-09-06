@@ -1,9 +1,9 @@
 class Devanywhere < Formula
   desc "一条命令把手机接入 Mac 上的 Claude Code / Codex / Cursor / opencode（WebRTC 数据面，无 VPN）"
   homepage "https://github.com/Rocke1001feller/DevAnyWhere"
-  url "https://registry.npmjs.org/@devanywhere/cli/-/cli-2.0.0-alpha.2.tgz"
-  sha256 "47ba6311c8060625cae0c448999363ed1c6ef86bd084ab1318f4dab8ee5ea879"
-  version "2.0.0-alpha.2"
+  url "https://registry.npmjs.org/@devanywhere/cli/-/cli-2.0.0-alpha.3.tgz"
+  sha256 "b39d16b71e35db1001b2bcf454e9d8cefca596d0d37696a2d60bd9e27a6b6f11"
+  version "2.0.0-alpha.3"
 
   depends_on "node@22"
 
