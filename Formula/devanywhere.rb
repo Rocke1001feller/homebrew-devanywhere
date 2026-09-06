@@ -1,8 +1,8 @@
 class Devanywhere < Formula
   desc "一条命令把手机接入 Mac 上的 Claude Code / Codex / Cursor / opencode（WebRTC 数据面，无 VPN）"
   homepage "https://github.com/Rocke1001feller/DevAnyWhere"
-  url "https://registry.npmjs.org/devanywhere/-/devanywhere-2.0.0-alpha.0.tgz"
-  sha256 "cfe6681f811648be170386240e4d627882b7219defe90c448ff80367689bdf48"
+  url "https://registry.npmjs.org/@devanywhere/cli/-/cli-2.0.0-alpha.0.tgz"
+  sha256 "0fc126edb9ac12cfa22f9c4965a28a4f5c0afa41af67eeb8d7963197a49e4b55"
   version "2.0.0-alpha.0"
 
   depends_on "node@22"
@@ -15,6 +15,7 @@ class Devanywhere < Formula
 
   def caveats
     <<~EOS
+      v2 线发布于 @devanywhere/cli（本 formula）；unscoped devanywhere 包为 0.9.x 老线专用通道。
       开始使用：
         devanywhere login   # 邮箱+密码登录（邀请码注册的账号）
         devanywhere up      # 启动服务，手机扫终端二维码 → 登录 → 点连接
